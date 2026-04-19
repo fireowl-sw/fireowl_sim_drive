@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_waypoint_types/rosidl_typesupport_fastrtps_cpp/carla_waypoint_types/srv/detail/get_waypoint__rosidl_typesupport_fastrtps_cpp.hpp

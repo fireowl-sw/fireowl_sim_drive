@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_msgs/rosidl_generator_c/carla_msgs/srv/detail/spawn_object__type_support.h

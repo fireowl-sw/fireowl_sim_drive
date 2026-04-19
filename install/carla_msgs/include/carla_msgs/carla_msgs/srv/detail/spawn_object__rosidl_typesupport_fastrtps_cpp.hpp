@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_msgs/rosidl_typesupport_fastrtps_cpp/carla_msgs/srv/detail/spawn_object__rosidl_typesupport_fastrtps_cpp.hpp

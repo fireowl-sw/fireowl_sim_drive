@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_lidar_mapping_ros2/launch/lidar_mapping.launch.py

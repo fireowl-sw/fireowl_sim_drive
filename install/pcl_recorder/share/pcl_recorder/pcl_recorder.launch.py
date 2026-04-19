@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/src/pcl_recorder/launch/pcl_recorder.launch.py

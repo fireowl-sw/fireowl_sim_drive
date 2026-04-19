@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin/ament_cmake_environment_hooks/local_setup.sh

@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/launch/carla_ros_bridge.launch.py

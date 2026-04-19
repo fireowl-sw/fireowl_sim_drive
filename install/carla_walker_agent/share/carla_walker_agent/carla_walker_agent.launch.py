@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_walker_agent/launch/carla_walker_agent.launch.py

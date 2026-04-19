@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_waypoint_types/rosidl_generator_cpp/carla_waypoint_types/msg/detail/carla_waypoint__traits.hpp

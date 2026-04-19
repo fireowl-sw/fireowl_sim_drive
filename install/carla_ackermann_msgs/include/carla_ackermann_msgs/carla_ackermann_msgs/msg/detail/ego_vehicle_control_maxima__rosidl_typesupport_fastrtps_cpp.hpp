@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ackermann_msgs/rosidl_typesupport_fastrtps_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_maxima__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_msgs/msg/CarlaActorInfo.msg

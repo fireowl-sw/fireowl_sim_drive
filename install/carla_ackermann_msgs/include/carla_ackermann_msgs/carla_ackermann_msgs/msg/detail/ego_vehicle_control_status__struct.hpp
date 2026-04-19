@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ackermann_msgs/rosidl_generator_cpp/carla_ackermann_msgs/msg/detail/ego_vehicle_control_status__struct.hpp

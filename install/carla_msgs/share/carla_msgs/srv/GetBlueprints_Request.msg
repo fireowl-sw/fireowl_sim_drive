@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_msgs/rosidl_cmake/srv/GetBlueprints_Request.msg

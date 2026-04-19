@@ -1,1 +1,0 @@
-/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_msgs/rosidl_typesupport_fastrtps_c/carla_msgs/srv/detail/get_blueprints__rosidl_typesupport_fastrtps_c.h
