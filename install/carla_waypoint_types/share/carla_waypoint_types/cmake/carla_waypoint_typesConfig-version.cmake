@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_waypoint_types/ament_cmake_core/carla_waypoint_typesConfig-version.cmake

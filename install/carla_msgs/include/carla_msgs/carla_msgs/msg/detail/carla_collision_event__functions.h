@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_msgs/rosidl_generator_c/carla_msgs/msg/detail/carla_collision_event__functions.h

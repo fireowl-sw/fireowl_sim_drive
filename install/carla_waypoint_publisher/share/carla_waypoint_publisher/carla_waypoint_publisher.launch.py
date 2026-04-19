@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_waypoint_publisher/launch/carla_waypoint_publisher.launch.py

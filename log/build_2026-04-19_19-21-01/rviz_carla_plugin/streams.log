@@ -1,0 +1,120 @@
+[0.244s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fireowl/fireowl_ws/fireowl_sim_drive/src/ros-bridge/rviz_carla_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin
+[0.782s] -- The C compiler identification is GNU 11.4.0
+[0.795s] -- The CXX compiler identification is GNU 11.4.0
+[1.207s] -- Detecting C compiler ABI info
+[1.358s] -- Detecting C compiler ABI info - done
+[1.364s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.364s] -- Detecting C compile features
+[1.364s] -- Detecting C compile features - done
+[1.366s] -- Detecting CXX compiler ABI info
+[1.501s] -- Detecting CXX compiler ABI info - done
+[1.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.508s] -- Detecting CXX compile features
+[1.509s] -- Detecting CXX compile features - done
+[1.510s] -- Found ros_environment: 3.2.2 (/opt/ros/humble/share/ros_environment/cmake)
+[1.511s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.622s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.662s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.681s] -- Found rviz_common: 11.2.25 (/opt/ros/humble/share/rviz_common/cmake)
+[1.859s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.865s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.867s] -- Found OGRE
+[1.867s] --   static     : OFF
+[1.867s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.867s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.867s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.867s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.867s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.867s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.868s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.868s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.868s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.868s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.868s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.610s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[4.388s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[7.124s] -- Found X11: /usr/include   
+[7.124s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.223s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.223s] -- Looking for gethostbyname
+[7.324s] -- Looking for gethostbyname - found
+[7.324s] -- Looking for connect
+[7.421s] -- Looking for connect - found
+[7.421s] -- Looking for remove
+[7.541s] -- Looking for remove - found
+[7.541s] -- Looking for shmat
+[7.662s] -- Looking for shmat - found
+[7.662s] -- Looking for IceConnectionNumber in ICE
+[7.779s] -- Looking for IceConnectionNumber in ICE - found
+[8.989s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[9.040s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.042s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.046s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.238s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.240s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.251s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.278s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.279s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.461s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.462s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.467s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[10.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.557s] -- Looking for pthread.h
+[10.679s] -- Looking for pthread.h - found
+[10.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.801s] -- Found Threads: TRUE  
+[10.876s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.876s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.936s] -- Found carla_msgs: 1.3.0 (/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/share/carla_msgs/cmake)
+[10.951s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[10.958s] -- Found carla_ros_scenario_runner_types: 0.1.0 (/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/share/carla_ros_scenario_runner_types/cmake)
+[11.004s] -- Configuring done
+[11.042s] -- Generating done
+[11.046s] -- Build files have been written to: /home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin
+[11.054s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/fireowl/fireowl_ws/fireowl_sim_drive/src/ros-bridge/rviz_carla_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin
+[11.055s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin -- -j12 -l12
+[11.083s] [ 12%] [34m[1mAutomatic MOC for target rviz_carla_plugin[0m
+[11.392s] [ 12%] Built target rviz_carla_plugin_autogen
+[11.397s] [ 25%] [34m[1mGenerating qrc_rviz_carla_plugin.cpp[0m
+[11.411s] [ 37%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/indicator_widget.cpp.o[0m
+[11.411s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/rviz_carla_plugin_autogen/mocs_compilation.cpp.o[0m
+[11.411s] [ 62%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/carla_control_panel_ROS2.cpp.o[0m
+[11.411s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/src/drive_widget.cpp.o[0m
+[11.412s] [ 87%] [32mBuilding CXX object CMakeFiles/rviz_carla_plugin.dir/qrc_rviz_carla_plugin.cpp.o[0m
+[25.404s] [100%] [32m[1mLinking CXX shared library librviz_carla_plugin.so[0m
+[27.087s] [100%] Built target rviz_carla_plugin
+[27.094s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin -- -j12 -l12
+[27.096s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin
+[27.101s] -- Install configuration: ""
+[27.101s] -- Execute custom install script
+[27.102s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin//plugin_description_ros2.xml
+[27.107s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/library_path.sh
+[27.112s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/library_path.dsv
+[27.118s] -- Up-to-date symlink: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/plugin_description_ros2.xml
+[27.119s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/classes/CarlaControl.png
+[27.124s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/pause.png
+[27.129s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/play.png
+[27.134s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/step_once.png
+[27.140s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/ament_index/resource_index/package_run_dependencies/rviz_carla_plugin
+[27.146s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/ament_index/resource_index/parent_prefix_path/rviz_carla_plugin
+[27.152s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/ament_prefix_path.sh
+[27.159s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/ament_prefix_path.dsv
+[27.164s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/path.sh
+[27.170s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/environment/path.dsv
+[27.175s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.bash
+[27.180s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.sh
+[27.184s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.zsh
+[27.189s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/local_setup.dsv
+[27.193s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/package.dsv
+[27.198s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/ament_index/resource_index/packages/rviz_carla_plugin
+[27.202s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_carla_plugin
+[27.208s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[27.213s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig.cmake
+[27.217s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/cmake/rviz_carla_pluginConfig-version.cmake
+[27.223s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/share/rviz_carla_plugin/package.xml
+[27.227s] -- Installing: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/lib/librviz_carla_plugin.so
+[27.239s] -- Set runtime path of "/home/fireowl/fireowl_ws/fireowl_sim_drive/install/rviz_carla_plugin/lib/librviz_carla_plugin.so" to ""
+[27.241s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin' returned '0': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/lib:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_scenario_runner_types/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/fireowl/fireowl_ws/fireowl_sim_drive/build/rviz_carla_plugin

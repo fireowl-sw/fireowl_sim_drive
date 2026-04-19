@@ -1,0 +1,48 @@
+[0.754s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/ros-bridge/ros_compatibility': PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_compatibility build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/install.log --single-version-externally-managed install_data
+[0.897s] running egg_info
+[0.898s] creating ../../../build/ros_compatibility/ros_compatibility.egg-info
+[0.898s] writing ../../../build/ros_compatibility/ros_compatibility.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../../build/ros_compatibility/ros_compatibility.egg-info/dependency_links.txt
+[0.898s] writing requirements to ../../../build/ros_compatibility/ros_compatibility.egg-info/requires.txt
+[0.899s] writing top-level names to ../../../build/ros_compatibility/ros_compatibility.egg-info/top_level.txt
+[0.899s] writing manifest file '../../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[0.900s] reading manifest file '../../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[0.901s] writing manifest file '../../../build/ros_compatibility/ros_compatibility.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.901s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build
+[0.901s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib
+[0.901s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/logging.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/core.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/exceptions.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/callback_groups.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/node.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/executors.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.902s] copying src/ros_compatibility/qos.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility
+[0.903s] running install
+[0.903s] running install_lib
+[0.903s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/logging.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/core.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/exceptions.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/callback_groups.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/node.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.904s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/executors.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.905s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build/lib/ros_compatibility/qos.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility
+[0.905s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/logging.py to logging.cpython-310.pyc
+[0.905s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/core.py to core.cpython-310.pyc
+[0.906s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/exceptions.py to exceptions.cpython-310.pyc
+[0.906s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/callback_groups.py to callback_groups.cpython-310.pyc
+[0.906s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/__init__.py to __init__.cpython-310.pyc
+[0.907s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/node.py to node.cpython-310.pyc
+[0.909s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/executors.py to executors.cpython-310.pyc
+[0.909s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility/qos.py to qos.cpython-310.pyc
+[0.910s] running install_data
+[0.910s] running install_egg_info
+[0.911s] Copying ../../../build/ros_compatibility/ros_compatibility.egg-info to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages/ros_compatibility-0.0.0-py3.10.egg-info
+[0.912s] running install_scripts
+[0.928s] writing list of installed files to '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/install.log'
+[0.950s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/ros-bridge/ros_compatibility' returned '0': PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros_compatibility build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/install.log --single-version-externally-managed install_data

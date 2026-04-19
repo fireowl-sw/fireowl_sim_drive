@@ -1,0 +1,32 @@
+[0.760s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_twist_to_control': PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/carla_twist_to_control build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/install.log --single-version-externally-managed install_data
+[0.926s] running egg_info
+[0.927s] creating ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info
+[0.927s] writing ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/PKG-INFO
+[0.928s] writing dependency_links to ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/dependency_links.txt
+[0.928s] writing entry points to ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/entry_points.txt
+[0.928s] writing requirements to ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/requires.txt
+[0.928s] writing top-level names to ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/top_level.txt
+[0.928s] writing manifest file '../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/SOURCES.txt'
+[0.929s] reading manifest file '../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/SOURCES.txt'
+[0.930s] writing manifest file '../../../build/carla_twist_to_control/carla_twist_to_control.egg-info/SOURCES.txt'
+[0.930s] running build
+[0.930s] running build_py
+[0.930s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build
+[0.930s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib
+[0.931s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib/carla_twist_to_control
+[0.931s] copying src/carla_twist_to_control/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib/carla_twist_to_control
+[0.931s] copying src/carla_twist_to_control/carla_twist_to_control.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib/carla_twist_to_control
+[0.931s] running install
+[0.931s] running install_lib
+[0.932s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control
+[0.932s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib/carla_twist_to_control/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control
+[0.932s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build/lib/carla_twist_to_control/carla_twist_to_control.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control
+[0.933s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control/__init__.py to __init__.cpython-310.pyc
+[0.933s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control/carla_twist_to_control.py to carla_twist_to_control.cpython-310.pyc
+[0.934s] running install_data
+[0.934s] running install_egg_info
+[0.937s] Copying ../../../build/carla_twist_to_control/carla_twist_to_control.egg-info to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages/carla_twist_to_control-0.0.0-py3.10.egg-info
+[0.938s] running install_scripts
+[0.955s] Installing carla_twist_to_control script to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/carla_twist_to_control
+[0.955s] writing list of installed files to '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/install.log'
+[0.983s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_twist_to_control' returned '0': PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_twist_to_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/carla_twist_to_control build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_twist_to_control/install.log --single-version-externally-managed install_data

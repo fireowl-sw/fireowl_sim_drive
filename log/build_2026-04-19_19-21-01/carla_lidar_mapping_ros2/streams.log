@@ -1,0 +1,122 @@
+[0.366s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_lidar_mapping_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2
+[0.480s] -- The C compiler identification is GNU 11.4.0
+[0.943s] -- The CXX compiler identification is GNU 11.4.0
+[1.342s] -- Detecting C compiler ABI info
+[1.456s] -- Detecting C compiler ABI info - done
+[1.459s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.460s] -- Detecting C compile features
+[1.460s] -- Detecting C compile features - done
+[1.461s] -- Detecting CXX compiler ABI info
+[1.575s] -- Detecting CXX compiler ABI info - done
+[1.578s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.578s] -- Detecting CXX compile features
+[1.579s] -- Detecting CXX compile features - done
+[1.580s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.667s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.702s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.714s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.849s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.851s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.854s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.886s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.887s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.387s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.397s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.572s] -- Looking for pthread.h
+[10.681s] -- Looking for pthread.h - found
+[10.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.791s] -- Found Threads: TRUE  
+[10.816s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.832s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[10.842s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[10.849s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[10.869s] -- Checking for module 'eigen3'
+[10.875s] --   Found eigen3, version 3.4.0
+[10.890s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[10.890s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[11.997s] -- Checking for module 'flann'
+[12.003s] --   Found flann, version 1.9.1
+[12.358s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[12.359s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[17.456s] -- Checking for module 'libusb-1.0'
+[17.463s] --   Found libusb-1.0, version 1.0.25
+[17.569s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[17.570s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.763s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[19.538s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[19.542s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[19.546s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[21.462s] -- Found Qhull version 8.0.2
+[23.494s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[25.560s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[25.561s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[25.561s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[25.561s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[25.562s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[25.562s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[25.562s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[25.563s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[25.563s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[25.563s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[25.564s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[25.564s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[25.565s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[25.565s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[25.565s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[25.566s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[25.566s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[25.567s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[25.567s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[25.568s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[25.568s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[25.568s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[25.568s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[25.569s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[25.569s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[25.581s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.625s] -- Configured cppcheck include dirs: /home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_lidar_mapping_ros2/include;$<BUILD_INTERFACE:/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_lidar_mapping_ros2/include>
+[25.625s] -- Configured cppcheck exclude dirs and/or files: 
+[25.625s] -- Added test 'flake8' to check Python code syntax and style conventions
+[25.626s] -- Added test 'lint_cmake' to check CMake code style
+[25.627s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[25.627s] -- Added test 'uncrustify' to check C / C++ code style
+[25.628s] -- Configured uncrustify additional arguments: 
+[25.628s] -- Added test 'xmllint' to check XML markup files
+[25.629s] -- Configuring done
+[25.683s] -- Generating done
+[25.688s] -- Build files have been written to: /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2
+[25.700s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_lidar_mapping_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2
+[25.702s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2 -- -j12 -l12
+[25.731s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_mapping_node.dir/src/lidar_mapping.cpp.o[0m
+[25.731s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_mapping_node.dir/src/lidar_mapping_node.cpp.o[0m
+[34.995s] [100%] [32m[1mLinking CXX executable lidar_mapping_node[0m
+[35.998s] [100%] Built target lidar_mapping_node
+[36.005s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2 -- -j12 -l12
+[36.006s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2
+[36.010s] -- Install configuration: ""
+[36.011s] -- Execute custom install script
+[36.011s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/lib/carla_lidar_mapping_ros2/lidar_mapping_node
+[36.016s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/launch/lidar_mapping.launch.py
+[36.020s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/config/objects.json
+[36.026s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/rviz/mapping.rviz
+[36.032s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/ament_index/resource_index/package_run_dependencies/carla_lidar_mapping_ros2
+[36.036s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/ament_index/resource_index/parent_prefix_path/carla_lidar_mapping_ros2
+[36.042s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/environment/ament_prefix_path.sh
+[36.046s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/environment/ament_prefix_path.dsv
+[36.050s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/environment/path.sh
+[36.054s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/environment/path.dsv
+[36.059s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/local_setup.bash
+[36.064s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/local_setup.sh
+[36.069s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/local_setup.zsh
+[36.074s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/local_setup.dsv
+[36.078s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/package.dsv
+[36.082s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/ament_index/resource_index/packages/carla_lidar_mapping_ros2
+[36.086s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/cmake/carla_lidar_mapping_ros2Config.cmake
+[36.090s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/cmake/carla_lidar_mapping_ros2Config-version.cmake
+[36.094s] -- Symlinking: /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_lidar_mapping_ros2/share/carla_lidar_mapping_ros2/package.xml
+[36.100s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2

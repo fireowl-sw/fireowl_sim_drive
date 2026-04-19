@@ -1,0 +1,124 @@
+[0.991s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_ros_bridge': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_manual_control:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_manual_control/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/carla_ros_bridge build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/install.log --single-version-externally-managed install_data
+[1.106s] running egg_info
+[1.106s] creating ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info
+[1.107s] writing ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/PKG-INFO
+[1.107s] writing dependency_links to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/dependency_links.txt
+[1.107s] writing entry points to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/entry_points.txt
+[1.107s] writing requirements to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/requires.txt
+[1.107s] writing top-level names to ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/top_level.txt
+[1.107s] writing manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[1.108s] reading manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[1.109s] writing manifest file '../../../build/carla_ros_bridge/carla_ros_bridge.egg-info/SOURCES.txt'
+[1.109s] running build
+[1.109s] running build_py
+[1.109s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build
+[1.109s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib
+[1.110s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.110s] copying src/carla_ros_bridge/imu.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.110s] copying src/carla_ros_bridge/rss_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.110s] copying src/carla_ros_bridge/world_info.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.110s] copying src/carla_ros_bridge/traffic_participant.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.111s] copying src/carla_ros_bridge/ego_vehicle.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.111s] copying src/carla_ros_bridge/actor_list_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.111s] copying src/carla_ros_bridge/speedometer_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.111s] copying src/carla_ros_bridge/carla_status_publisher.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.111s] copying src/carla_ros_bridge/debug_helper.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/bridge.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/radar.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/gnss.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/collision_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.112s] copying src/carla_ros_bridge/spectator.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.113s] copying src/carla_ros_bridge/traffic_lights_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.113s] copying src/carla_ros_bridge/traffic.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.113s] copying src/carla_ros_bridge/actor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.113s] copying src/carla_ros_bridge/walker.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.113s] copying src/carla_ros_bridge/odom_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/lane_invasion_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/vehicle.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/actor_control.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/opendrive_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/pseudo_actor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.114s] copying src/carla_ros_bridge/marker_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/lidar.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/object_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/camera.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/tf_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/actor_factory.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] copying src/carla_ros_bridge/CARLA_VERSION -> /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge
+[1.115s] running install
+[1.116s] running install_lib
+[1.116s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.116s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/imu.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.116s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/rss_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.116s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/world_info.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic_participant.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/ego_vehicle.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_list_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/speedometer_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/carla_status_publisher.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/CARLA_VERSION -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/debug_helper.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.117s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/bridge.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.118s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/radar.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.118s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.118s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/__init__.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.118s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/gnss.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.118s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/collision_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/spectator.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic_lights_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/traffic.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/walker.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.119s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/odom_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/lane_invasion_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/vehicle.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_control.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/opendrive_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/pseudo_actor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/marker_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/lidar.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/object_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/camera.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.120s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/tf_sensor.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.121s] copying /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build/lib/carla_ros_bridge/actor_factory.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge
+[1.121s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/imu.py to imu.cpython-310.pyc
+[1.121s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/rss_sensor.py to rss_sensor.cpython-310.pyc
+[1.121s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/world_info.py to world_info.cpython-310.pyc
+[1.121s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/traffic_participant.py to traffic_participant.cpython-310.pyc
+[1.122s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/ego_vehicle.py to ego_vehicle.cpython-310.pyc
+[1.122s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/actor_list_sensor.py to actor_list_sensor.cpython-310.pyc
+[1.123s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/speedometer_sensor.py to speedometer_sensor.cpython-310.pyc
+[1.123s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/carla_status_publisher.py to carla_status_publisher.cpython-310.pyc
+[1.123s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/debug_helper.py to debug_helper.cpython-310.pyc
+[1.124s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/bridge.py to bridge.cpython-310.pyc
+[1.126s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/radar.py to radar.cpython-310.pyc
+[1.127s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/sensor.py to sensor.cpython-310.pyc
+[1.128s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/__init__.py to __init__.cpython-310.pyc
+[1.128s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/gnss.py to gnss.cpython-310.pyc
+[1.128s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/collision_sensor.py to collision_sensor.cpython-310.pyc
+[1.129s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/spectator.py to spectator.cpython-310.pyc
+[1.129s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/traffic_lights_sensor.py to traffic_lights_sensor.cpython-310.pyc
+[1.129s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/traffic.py to traffic.cpython-310.pyc
+[1.130s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/actor.py to actor.cpython-310.pyc
+[1.130s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/walker.py to walker.cpython-310.pyc
+[1.130s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/odom_sensor.py to odom_sensor.cpython-310.pyc
+[1.131s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/lane_invasion_sensor.py to lane_invasion_sensor.cpython-310.pyc
+[1.131s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/vehicle.py to vehicle.cpython-310.pyc
+[1.131s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/actor_control.py to actor_control.cpython-310.pyc
+[1.132s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/opendrive_sensor.py to opendrive_sensor.cpython-310.pyc
+[1.132s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/pseudo_actor.py to pseudo_actor.cpython-310.pyc
+[1.132s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/marker_sensor.py to marker_sensor.cpython-310.pyc
+[1.133s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/lidar.py to lidar.cpython-310.pyc
+[1.134s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/object_sensor.py to object_sensor.cpython-310.pyc
+[1.134s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/camera.py to camera.cpython-310.pyc
+[1.135s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/tf_sensor.py to tf_sensor.cpython-310.pyc
+[1.135s] byte-compiling /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge/actor_factory.py to actor_factory.cpython-310.pyc
+[1.137s] running install_data
+[1.137s] running install_egg_info
+[1.138s] Copying ../../../build/carla_ros_bridge/carla_ros_bridge.egg-info to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages/carla_ros_bridge-0.0.0-py3.10.egg-info
+[1.139s] running install_scripts
+[1.150s] Installing bridge script to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/carla_ros_bridge
+[1.150s] writing list of installed files to '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/install.log'
+[1.164s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/src/carla_ros_bridge' returned '0': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_manual_control:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_ros_bridge/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_manual_control/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_common/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/carla_ros_bridge build --build-base /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/build install --record /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ros_bridge/install.log --single-version-externally-managed install_data

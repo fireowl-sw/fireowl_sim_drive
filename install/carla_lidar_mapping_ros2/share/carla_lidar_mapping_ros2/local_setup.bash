@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_lidar_mapping_ros2/ament_cmake_environment_hooks/local_setup.bash

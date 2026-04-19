@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_waypoint_types/rosidl_cmake/srv/GetWaypoint_Response.msg

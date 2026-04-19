@@ -1,0 +1,30 @@
+[1.106s] Invoking command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/src:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/build --no-deps symlink_data
+[1.295s] running develop
+[1.405s] running egg_info
+[1.405s] creating carla_spawn_objects.egg-info
+[1.405s] writing carla_spawn_objects.egg-info/PKG-INFO
+[1.406s] writing dependency_links to carla_spawn_objects.egg-info/dependency_links.txt
+[1.406s] writing entry points to carla_spawn_objects.egg-info/entry_points.txt
+[1.406s] writing requirements to carla_spawn_objects.egg-info/requires.txt
+[1.406s] writing top-level names to carla_spawn_objects.egg-info/top_level.txt
+[1.406s] writing manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[1.407s] reading manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[1.408s] writing manifest file 'carla_spawn_objects.egg-info/SOURCES.txt'
+[1.409s] running build_ext
+[1.409s] Creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/python3.10/site-packages/carla-spawn-objects.egg-link (link to .)
+[1.410s] Installing carla_spawn_objects script to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/carla_spawn_objects
+[1.410s] Installing set_initial_pose script to /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/carla_spawn_objects
+[1.410s] 
+[1.411s] Installed /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects
+[1.411s] running symlink_data
+[1.411s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/ament_index
+[1.411s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/ament_index/resource_index
+[1.411s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[1.412s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/resource/carla_spawn_objects -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/ament_index/resource_index/packages
+[1.412s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/package.xml -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects
+[1.412s] creating /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects/config
+[1.412s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/config/objects.json -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects/config
+[1.412s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/launch/carla_spawn_objects.launch.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects
+[1.413s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/launch/carla_example_ego_vehicle.launch.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects
+[1.413s] symbolically linking /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/launch/set_initial_pose.launch.py -> /home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/share/carla_spawn_objects
+[1.443s] Invoked command in '/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects' returned '0': AMENT_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs LD_LIBRARY_PATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_spawn_objects/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/build/ros_compatibility/src:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/ros_compatibility/lib/python3.10/site-packages:/home/fireowl/fireowl_ws/fireowl_sim_drive/install/carla_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_spawn_objects/build --no-deps symlink_data

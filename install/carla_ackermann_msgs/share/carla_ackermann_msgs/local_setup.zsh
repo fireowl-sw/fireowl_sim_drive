@@ -1,0 +1,1 @@
+/home/fireowl/fireowl_ws/fireowl_sim_drive/build/carla_ackermann_msgs/ament_cmake_environment_hooks/local_setup.zsh
